@@ -51,7 +51,7 @@
 1. Add the table name to line 6 of the ProcessOrderFunction function code
 2. Go to SQS and configure a Lambd trigger and specify the ProcessOrderFunction
 3. Check the DynamoDB table to see if the first test event was processed
-4. Test using the CLI. Using CloudShell create a file named `input.json` with the following contents
+4. Test using the CLI. Using CloudShell create a file named `input.json` with the following contents.
 
 ```json
 {
