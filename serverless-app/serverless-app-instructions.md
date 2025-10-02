@@ -62,7 +62,7 @@
 5. Invoke the function:
 
 ```bash
-aws lambda invoke --function-name <function-name> --payload fileb://input.json output.json
+aws lambda invoke --function-name SubmitOrderFunction --payload fileb://input.json output.json
 ```
 
 # Serverless Application with REST API – Part 2
