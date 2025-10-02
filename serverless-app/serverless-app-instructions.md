@@ -53,6 +53,9 @@
 3. Check the DynamoDB table to see if the first test event was processed
 4. Test using the CLI. Using CloudShell create a file named `input.json` with the following contents.
 
+
+
+
 ```json
 {
   "body": "{\"productName\":\"Test Product 2\",\"quantity\":2}"
